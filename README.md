@@ -13,27 +13,15 @@ Fill out the form, and later you should be performing analytics at the speed of 
 ### Things you should know
 ##### After deployment
 
-- Superset will be accessible at `YOURAPPNAME.herokuapp.com`.
 
-- To make changes to your app like creating admin user, clone your app locally using the [Heroku Toolbelt](https://toolbelt.heroku.com/):
-
-```sh
-heroku git:clone --app YOURAPPNAME
-```
-
-- Attach the postgres DB to the app
-
-
-- Create an Admin user by using
+- Load examples
+for free dyno resource issue, you need manully run it with the following code,
 
 ```sh
 heroku run bash --app YOURAPPNAME
-fabmanager create-admin --app superset
-superset db upgrade
+superset load_examples
 superset init
 ```
-
-- Check Papertrail logs for debugging any errors.
 
 ### How this works
 
