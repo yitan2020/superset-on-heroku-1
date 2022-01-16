@@ -25,6 +25,6 @@
     }
   },
   "scripts": {
-    "postdeploy": "./postdeploy.sh"
+    "postdeploy": "sh ./postdeploy.sh"
   }  
 }
