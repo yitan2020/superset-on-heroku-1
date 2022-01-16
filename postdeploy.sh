@@ -1,6 +1,6 @@
 #!/bin/sh
 
-pip install --upgrade setuptools pip
+#pip install --upgrade setuptools pip
 
 superset db upgrade
 
