@@ -6,7 +6,7 @@ A modern, enterprise-ready business intelligence web application.
 
 To get your own Superset App running on Heroku, click the button below:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/alitrack/superset-on-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yitan2020/superset-on-heroku-1)
 
 Fill out the form, and later you should be performing analytics at the speed of thought.
 
